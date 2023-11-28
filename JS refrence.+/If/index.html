@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If</title>
+</head>
+<body>   
+<!-- <h1>JavaScript Statements</h1>
+<h2>The if Statement</h2>
+
+<p>Display "Good day"if the hour is less than 20:00:</p>
+
+<p id="demo"></p>
+
+<script>
+let hour = new Date().getHours();
+if (hour < 20) {
+  document.getElementById("demo").innerHTML = "Good day";
+}
+</script>-->
+
+<!-- <h1>JavaScript Statements</h1>
+<h2>The if...else Statements</h2>
+
+<p>A time-based greeting:</p>
+
+<p id="demo"></p>
+
+<script>
+let hour = new Date().getHours();
+let greeting;
+
+if (hour < 10) {
+  greeting = "Good morning";
+} else if (hour < 20) {
+  greeting = "Good day";
+} else {
+  greeting ="Good evening";
+}
+
+document.getElementById("demo").innerHTML = greeting;
+</script>-->
+
+<!-- <h1>JavaScript Statements</h1>
+<h2>The if...else Statements</h2>
+
+<img id="myImage" onclick="changeImage()" src="pic_bulboff.gif" width="100" height="180">
+
+<p>Click the light bulb to turn on/off the light.</p>
+
+<script>
+function changeImage() {
+  var image = document.getElementById("myImage");
+  if (image.src.match("bulbon")) {
+    image.src = "pic_bulboff.gif";
+  } else {
+    image.src = "pic_bulbon.gif";
+  }
+}
+</script>-->
+
+<!-- <p>I'm thinking of a letter. Guess which: a, b, c, d or e?</p>
+
+<input id="myInput" type="text">
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var letter = document.getElementById("myInput").value;
+  var text;
+
+  // If the letter is "c"
+  if (letter === "c") {
+    text = "Spot on! Good job!";
+    
+  // If the letter is "b" or "d"
+  } else if (letter === "b" || letter === "d") {
+    text = "Close, but not close enough.";
+    
+  // If the letter is anything else
+  } else {
+    text = "Waaay off..";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>-->
+
+<!-- <h1>JavaScript Statements</h1>
+<h2>The if...else Statements</h2>
+
+
+<p>Please input a number between 1 and 10:</p>
+
+<input id="numb" type="text">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x, text;
+
+  // Get the value of input field with id="numb"
+
+  x = document.getElementById("numb").value;
+
+  // If x is Not a Number or less than one or greater than 10, output "input is not valid"
+  // If x is a number between 1 and 10, output "Input OK"
+   
+  if (isNaN(x) || x < 1 || x > 10) {
+    text = "Input not valid";
+  } else {
+    text = "Input OK";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>-->
+</body>
+</html>

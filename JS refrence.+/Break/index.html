@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Break</title>
+</head>
+<body>
+    <!-- <h1>JavaScript Statements</h1>
+    <h2>The break Statement</h2>
+    
+    <p id="demo"></p>
+    
+    <script>
+    let day;
+    switch (new Date().getDay()) {
+      case 0:
+        day = "Sunday";
+        break;
+      case 1:
+        day = "Monday";
+        break;
+      case 2:
+        day = "Tuesday";
+        break;
+      case 3:
+        day = "Wednesday";
+        break;
+      case 4:
+        day = "Thursday";
+        break;
+      case 5:
+        day = "Friday";
+        break;
+      case  6:
+        day = "Saturday";
+        break;
+    }
+    document.getElementById("demo").innerHTML = "Today is " + day;
+    </script> -->
+
+    <!-- <h1>JavaScript Statements</h1>
+    <h2>The break Statement</h2>
+
+    <p id="demo"></p>
+
+    <script>
+    const cars = ["BMW", "Volvo", "Saab", "Ford"];
+    let text = "";
+
+    list: {
+    text += cars[0] + "<br>"; 
+    text += cars[1] + "<br>"; 
+    text += cars[2] + "<br>"; 
+    break list;
+    text += cars[3] + "<br>"; 
+    }
+
+    document.getElementById("demo").innerHTML = text;
+    </script> -->
+   
+    <!-- <h1>JavaScript Statements</h1>
+    <h2>The break Statement</h2>
+
+    <p>When i equals 12 in Loop2, the break statement "jumps out" of Loop1.</p>
+
+    <p id="demo"></p>
+
+    <script>
+    let text = "";
+
+    // The first for loop is labeled Loop1:
+    Loop1:
+    for (let i = 0; i < 3; i++) {
+    text += i + "<br>";
+
+    // The second for loop is labeled Loop2:  
+    Loop2:
+    for (let i = 10; i < 15; i++) {
+        text += i + "<br>";
+        if (i === 12) break Loop1;
+    }
+    }
+    document.getElementById("demo").innerHTML = text;
+    </script> -->
+</body>
+</html>
